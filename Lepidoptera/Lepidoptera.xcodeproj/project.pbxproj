@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6270AEA2252DE82200E788CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6270AEA1252DE82200E788CF /* AppDelegate.swift */; };
+		6270AEA4252DE82200E788CF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6270AEA3252DE82200E788CF /* GameScene.sks */; };
+		6270AEA6252DE82200E788CF /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6270AEA5252DE82200E788CF /* Actions.sks */; };
+		6270AEA8252DE82200E788CF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6270AEA7252DE82200E788CF /* GameScene.swift */; };
+		6270AEAA252DE82200E788CF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6270AEA9252DE82200E788CF /* GameViewController.swift */; };
+		6270AEAD252DE82200E788CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6270AEAB252DE82200E788CF /* Main.storyboard */; };
+		6270AEAF252DE82400E788CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6270AEAE252DE82400E788CF /* Assets.xcassets */; };
+		6270AEB2252DE82400E788CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6270AEB0252DE82400E788CF /* LaunchScreen.storyboard */; };
+		6270AEBD252DE82400E788CF /* LepidopteraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6270AEBC252DE82400E788CF /* LepidopteraTests.swift */; };
+		6270AEC8252DE82400E788CF /* LepidopteraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6270AEC7252DE82400E788CF /* LepidopteraUITests.swift */; };
+		6270AED7252DEDC400E788CF /* tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6270AED6252DEDC400E788CF /* tile.swift */; };
+		6270AED9252F036500E788CF /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6270AED8252F036500E788CF /* Array2D.swift */; };
+		6270AEDB25305FA300E788CF /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6270AEDA25305FA300E788CF /* File.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6270AEB9252DE82400E788CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6270AE96252DE82200E788CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6270AE9D252DE82200E788CF;
+			remoteInfo = Lepidoptera;
+		};
+		6270AEC4252DE82400E788CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6270AE96252DE82200E788CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6270AE9D252DE82200E788CF;
+			remoteInfo = Lepidoptera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6270AE9E252DE82200E788CF /* Lepidoptera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lepidoptera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6270AEA1252DE82200E788CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6270AEA3252DE82200E788CF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		6270AEA5252DE82200E788CF /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		6270AEA7252DE82200E788CF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		6270AEA9252DE82200E788CF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		6270AEAC252DE82200E788CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6270AEAE252DE82400E788CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6270AEB1252DE82400E788CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6270AEB3252DE82400E788CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6270AEB8252DE82400E788CF /* LepidopteraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LepidopteraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6270AEBC252DE82400E788CF /* LepidopteraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LepidopteraTests.swift; sourceTree = "<group>"; };
+		6270AEBE252DE82400E788CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6270AEC3252DE82400E788CF /* LepidopteraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LepidopteraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6270AEC7252DE82400E788CF /* LepidopteraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LepidopteraUITests.swift; sourceTree = "<group>"; };
+		6270AEC9252DE82400E788CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6270AED5252DE85900E788CF /* Lepidoptera.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lepidoptera.entitlements; sourceTree = "<group>"; };
+		6270AED6252DEDC400E788CF /* tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tile.swift; sourceTree = "<group>"; };
+		6270AED8252F036500E788CF /* Array2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		6270AEDA25305FA300E788CF /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6270AE9B252DE82200E788CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6270AEB5252DE82400E788CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6270AEC0252DE82400E788CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6270AE95252DE82200E788CF = {
+			isa = PBXGroup;
+			children = (
+				6270AEA0252DE82200E788CF /* Lepidoptera */,
+				6270AEBB252DE82400E788CF /* LepidopteraTests */,
+				6270AEC6252DE82400E788CF /* LepidopteraUITests */,
+				6270AE9F252DE82200E788CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6270AE9F252DE82200E788CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6270AE9E252DE82200E788CF /* Lepidoptera.app */,
+				6270AEB8252DE82400E788CF /* LepidopteraTests.xctest */,
+				6270AEC3252DE82400E788CF /* LepidopteraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6270AEA0252DE82200E788CF /* Lepidoptera */ = {
+			isa = PBXGroup;
+			children = (
+				6270AED5252DE85900E788CF /* Lepidoptera.entitlements */,
+				6270AEA1252DE82200E788CF /* AppDelegate.swift */,
+				6270AEA3252DE82200E788CF /* GameScene.sks */,
+				6270AEA5252DE82200E788CF /* Actions.sks */,
+				6270AEA7252DE82200E788CF /* GameScene.swift */,
+				6270AEA9252DE82200E788CF /* GameViewController.swift */,
+				6270AEAB252DE82200E788CF /* Main.storyboard */,
+				6270AEAE252DE82400E788CF /* Assets.xcassets */,
+				6270AEB0252DE82400E788CF /* LaunchScreen.storyboard */,
+				6270AEB3252DE82400E788CF /* Info.plist */,
+				6270AED6252DEDC400E788CF /* tile.swift */,
+				6270AED8252F036500E788CF /* Array2D.swift */,
+				6270AEDA25305FA300E788CF /* File.swift */,
+			);
+			path = Lepidoptera;
+			sourceTree = "<group>";
+		};
+		6270AEBB252DE82400E788CF /* LepidopteraTests */ = {
+			isa = PBXGroup;
+			children = (
+				6270AEBC252DE82400E788CF /* LepidopteraTests.swift */,
+				6270AEBE252DE82400E788CF /* Info.plist */,
+			);
+			path = LepidopteraTests;
+			sourceTree = "<group>";
+		};
+		6270AEC6252DE82400E788CF /* LepidopteraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6270AEC7252DE82400E788CF /* LepidopteraUITests.swift */,
+				6270AEC9252DE82400E788CF /* Info.plist */,
+			);
+			path = LepidopteraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6270AE9D252DE82200E788CF /* Lepidoptera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6270AECC252DE82400E788CF /* Build configuration list for PBXNativeTarget "Lepidoptera" */;
+			buildPhases = (
+				6270AE9A252DE82200E788CF /* Sources */,
+				6270AE9B252DE82200E788CF /* Frameworks */,
+				6270AE9C252DE82200E788CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lepidoptera;
+			productName = Lepidoptera;
+			productReference = 6270AE9E252DE82200E788CF /* Lepidoptera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6270AEB7252DE82400E788CF /* LepidopteraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6270AECF252DE82400E788CF /* Build configuration list for PBXNativeTarget "LepidopteraTests" */;
+			buildPhases = (
+				6270AEB4252DE82400E788CF /* Sources */,
+				6270AEB5252DE82400E788CF /* Frameworks */,
+				6270AEB6252DE82400E788CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6270AEBA252DE82400E788CF /* PBXTargetDependency */,
+			);
+			name = LepidopteraTests;
+			productName = LepidopteraTests;
+			productReference = 6270AEB8252DE82400E788CF /* LepidopteraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6270AEC2252DE82400E788CF /* LepidopteraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6270AED2252DE82400E788CF /* Build configuration list for PBXNativeTarget "LepidopteraUITests" */;
+			buildPhases = (
+				6270AEBF252DE82400E788CF /* Sources */,
+				6270AEC0252DE82400E788CF /* Frameworks */,
+				6270AEC1252DE82400E788CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6270AEC5252DE82400E788CF /* PBXTargetDependency */,
+			);
+			name = LepidopteraUITests;
+			productName = LepidopteraUITests;
+			productReference = 6270AEC3252DE82400E788CF /* LepidopteraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6270AE96252DE82200E788CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Feedback Engineering";
+				TargetAttributes = {
+					6270AE9D252DE82200E788CF = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					6270AEB7252DE82400E788CF = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6270AE9D252DE82200E788CF;
+					};
+					6270AEC2252DE82400E788CF = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6270AE9D252DE82200E788CF;
+					};
+				};
+			};
+			buildConfigurationList = 6270AE99252DE82200E788CF /* Build configuration list for PBXProject "Lepidoptera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6270AE95252DE82200E788CF;
+			productRefGroup = 6270AE9F252DE82200E788CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6270AE9D252DE82200E788CF /* Lepidoptera */,
+				6270AEB7252DE82400E788CF /* LepidopteraTests */,
+				6270AEC2252DE82400E788CF /* LepidopteraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6270AE9C252DE82200E788CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6270AEAD252DE82200E788CF /* Main.storyboard in Resources */,
+				6270AEA4252DE82200E788CF /* GameScene.sks in Resources */,
+				6270AEAF252DE82400E788CF /* Assets.xcassets in Resources */,
+				6270AEB2252DE82400E788CF /* LaunchScreen.storyboard in Resources */,
+				6270AEA6252DE82200E788CF /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6270AEB6252DE82400E788CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6270AEC1252DE82400E788CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6270AE9A252DE82200E788CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6270AEA8252DE82200E788CF /* GameScene.swift in Sources */,
+				6270AEDB25305FA300E788CF /* File.swift in Sources */,
+				6270AEAA252DE82200E788CF /* GameViewController.swift in Sources */,
+				6270AEA2252DE82200E788CF /* AppDelegate.swift in Sources */,
+				6270AED7252DEDC400E788CF /* tile.swift in Sources */,
+				6270AED9252F036500E788CF /* Array2D.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6270AEB4252DE82400E788CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6270AEBD252DE82400E788CF /* LepidopteraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6270AEBF252DE82400E788CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6270AEC8252DE82400E788CF /* LepidopteraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6270AEBA252DE82400E788CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6270AE9D252DE82200E788CF /* Lepidoptera */;
+			targetProxy = 6270AEB9252DE82400E788CF /* PBXContainerItemProxy */;
+		};
+		6270AEC5252DE82400E788CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6270AE9D252DE82200E788CF /* Lepidoptera */;
+			targetProxy = 6270AEC4252DE82400E788CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6270AEAB252DE82200E788CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6270AEAC252DE82200E788CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6270AEB0252DE82400E788CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6270AEB1252DE82400E788CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6270AECA252DE82400E788CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6270AECB252DE82400E788CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6270AECD252DE82400E788CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lepidoptera/Lepidoptera.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99Z3YB8BYP;
+				INFOPLIST_FILE = Lepidoptera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FE.Lepidoptera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6270AECE252DE82400E788CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lepidoptera/Lepidoptera.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99Z3YB8BYP;
+				INFOPLIST_FILE = Lepidoptera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FE.Lepidoptera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6270AED0252DE82400E788CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LepidopteraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FE.LepidopteraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lepidoptera.app/Lepidoptera";
+			};
+			name = Debug;
+		};
+		6270AED1252DE82400E788CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LepidopteraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FE.LepidopteraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lepidoptera.app/Lepidoptera";
+			};
+			name = Release;
+		};
+		6270AED3252DE82400E788CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LepidopteraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FE.LepidopteraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lepidoptera;
+			};
+			name = Debug;
+		};
+		6270AED4252DE82400E788CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LepidopteraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FE.LepidopteraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lepidoptera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6270AE99252DE82200E788CF /* Build configuration list for PBXProject "Lepidoptera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6270AECA252DE82400E788CF /* Debug */,
+				6270AECB252DE82400E788CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6270AECC252DE82400E788CF /* Build configuration list for PBXNativeTarget "Lepidoptera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6270AECD252DE82400E788CF /* Debug */,
+				6270AECE252DE82400E788CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6270AECF252DE82400E788CF /* Build configuration list for PBXNativeTarget "LepidopteraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6270AED0252DE82400E788CF /* Debug */,
+				6270AED1252DE82400E788CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6270AED2252DE82400E788CF /* Build configuration list for PBXNativeTarget "LepidopteraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6270AED3252DE82400E788CF /* Debug */,
+				6270AED4252DE82400E788CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6270AE96252DE82200E788CF /* Project object */;
+}
