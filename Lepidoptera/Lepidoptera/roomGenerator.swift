@@ -17,7 +17,8 @@ class roomGenerator {
         length = l
     }
     
-    func populate(tiles: Array<Tile>) {
+    func populate(tiles: Array<Tile>, room: Room) -> Room {
         
+        return room
     }
 }
