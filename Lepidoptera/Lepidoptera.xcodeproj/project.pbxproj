@@ -20,7 +20,6 @@
 		6270AEC8252DE82400E788CF /* LepidopteraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6270AEC7252DE82400E788CF /* LepidopteraUITests.swift */; };
 		6270AED7252DEDC400E788CF /* tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6270AED6252DEDC400E788CF /* tile.swift */; };
 		6270AED9252F036500E788CF /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6270AED8252F036500E788CF /* Array2D.swift */; };
-		6270AEDB25305FA300E788CF /* roomGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6270AEDA25305FA300E788CF /* roomGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +60,6 @@
 		6270AED5252DE85900E788CF /* Lepidoptera.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lepidoptera.entitlements; sourceTree = "<group>"; };
 		6270AED6252DEDC400E788CF /* tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tile.swift; sourceTree = "<group>"; };
 		6270AED8252F036500E788CF /* Array2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
-		6270AEDA25305FA300E788CF /* roomGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roomGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +122,6 @@
 				6270AEB3252DE82400E788CF /* Info.plist */,
 				6270AED6252DEDC400E788CF /* tile.swift */,
 				6270AED8252F036500E788CF /* Array2D.swift */,
-				6270AEDA25305FA300E788CF /* roomGenerator.swift */,
 				623D5FDE253329B700C52489 /* Room.swift */,
 			);
 			path = Lepidoptera;
@@ -282,7 +279,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6270AEA8252DE82200E788CF /* GameScene.swift in Sources */,
-				6270AEDB25305FA300E788CF /* roomGenerator.swift in Sources */,
 				623D5FDF253329B700C52489 /* Room.swift in Sources */,
 				6270AEAA252DE82200E788CF /* GameViewController.swift in Sources */,
 				6270AEA2252DE82200E788CF /* AppDelegate.swift in Sources */,

@@ -13,7 +13,7 @@ class Room {
     var isHybrid : Bool
     var shape : String
     var fuzziness : Float
-    
+    var tiles : Array2D<Tile>
     /*Create a room.
       Rooms should be generated according to heurestic rules:
       - Rooms should fall into a number of "types", with hybrids possible between some types.
@@ -31,6 +31,11 @@ class Room {
         isHybrid = hybrid
         shape = roomShape
         fuzziness = fuzzFactor
-        
+        tiles = Array2D(columns:0,rows:0)
     }
+    
+    func populate() {
+        //Firstly, redefine the dimensions of the tile array based on the shape of the room.
+    }
+    
 }
