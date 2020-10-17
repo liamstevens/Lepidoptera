@@ -37,11 +37,13 @@ class Room {
     func populate() {
         //Firstly, redefine the dimensions of the tile array based on the shape of the room.
         switch(self.shape) {
-        case self.shape == "Square":
-            
-            
-        default:
-            return
+            case ("Square"):
+                tiles = Array2D(columns: 30, rows: 30)
+            case("Long"):
+                tiles = Array2D(columns: 8, rows: 40)
+                
+            default:
+                return
         }
     }
     
