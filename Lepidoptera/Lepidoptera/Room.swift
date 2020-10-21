@@ -41,7 +41,8 @@ class Room {
                 tiles = Array2D(columns: 30, rows: 30)
             case("Long"):
                 tiles = Array2D(columns: 8, rows: 40)
-                
+            case("Elliptical"):
+                tiles = Array2D(columns: 30, rows: 20)
             default:
                 return
         }
